@@ -1,0 +1,6 @@
+<h1>Welcome to the Movie Search App</h1>
+
+<% data["Search"].forEach(function(movie){ %>
+    <li><%= movie["Title"] %> — <%= movie["Year"] %></li>
+    <img src="<%= movie["Poster"] %>" width="150px">
+<% }); %>
